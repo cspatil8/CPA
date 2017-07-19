@@ -14,6 +14,7 @@
 		82D8A4581F1EFDCD0046FE15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D8A4561F1EFDCD0046FE15 /* LaunchScreen.storyboard */; };
 		82D8A4631F1EFDCD0046FE15 /* CookingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8A4621F1EFDCD0046FE15 /* CookingAppTests.swift */; };
 		82D8A46E1F1EFDCD0046FE15 /* CookingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8A46D1F1EFDCD0046FE15 /* CookingAppUITests.swift */; };
+		82D8A47C1F1EFE220046FE15 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8A47B1F1EFE220046FE15 /* Ingredient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		82D8A4691F1EFDCD0046FE15 /* CookingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D8A46D1F1EFDCD0046FE15 /* CookingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingAppUITests.swift; sourceTree = "<group>"; };
 		82D8A46F1F1EFDCD0046FE15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D8A47B1F1EFE220046FE15 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				82D8A44D1F1EFDCD0046FE15 /* AppDelegate.swift */,
+				82D8A47B1F1EFE220046FE15 /* Ingredient.swift */,
 				82D8A44F1F1EFDCD0046FE15 /* ViewController.swift */,
 				82D8A4511F1EFDCD0046FE15 /* Main.storyboard */,
 				82D8A4541F1EFDCD0046FE15 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				82D8A4501F1EFDCD0046FE15 /* ViewController.swift in Sources */,
 				82D8A44E1F1EFDCD0046FE15 /* AppDelegate.swift in Sources */,
+				82D8A47C1F1EFE220046FE15 /* Ingredient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
