@@ -9,5 +9,11 @@
 import Foundation
 
 class Ingredient {
+    var name: String
+    var condition: String?
     
+    init(name: String, condition: String?) {
+        self.name = name
+        self.condition = condition
+    }
 }
