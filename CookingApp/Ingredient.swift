@@ -18,4 +18,8 @@ class Ingredient {
         self.condition = condition
         self.quantity = quantity
     }
+    
+    func equals(ingredient: Ingredient) -> Bool {
+        return  self.name == ingredient.name 
+    }
 }

@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct LevelOfDifficulty {
-    let easy: String = "Easy"
-    let medium: String = "Medium"
-    let hard: String = "Hard"
+enum LevelOfDifficulty {
+    case easy
+    case medium
+    case hard
 }
 
 class Recipe {
@@ -31,5 +31,25 @@ class Recipe {
         self.instructions = instructions
         self.description = description
         self.level = level
+    }
+    
+    func contains(ingredient: Ingredient) -> Bool {
+        for i in 0...ingredients.endIndex {
+            if ingredients[i].equals(ingredient: ingredient) {
+                return true
+            }
+        }
+        return false
+    }
+    
+    func isLevel(level: LevelOfDifficulty) -> Bool {
+        return self.level == level
+    }
+    
+    func isCuisine(cuisine: String) -> Bool {
+        if let recipeCuisine = self.cuisine {
+            return recipeCuisine == cuisine
+        }
+        return false
     }
 }

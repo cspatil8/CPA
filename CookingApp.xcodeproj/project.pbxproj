@@ -101,14 +101,14 @@
 		82D8A44C1F1EFDCD0046FE15 /* CookingApp */ = {
 			isa = PBXGroup;
 			children = (
-				82D8A44D1F1EFDCD0046FE15 /* AppDelegate.swift */,
+				82D8A47E1F1F03660046FE15 /* Recipe.swift */,
 				82D8A47B1F1EFE220046FE15 /* Ingredient.swift */,
 				82D8A44F1F1EFDCD0046FE15 /* ViewController.swift */,
 				82D8A4511F1EFDCD0046FE15 /* Main.storyboard */,
 				82D8A4541F1EFDCD0046FE15 /* Assets.xcassets */,
 				82D8A4561F1EFDCD0046FE15 /* LaunchScreen.storyboard */,
 				82D8A4591F1EFDCD0046FE15 /* Info.plist */,
-				82D8A47E1F1F03660046FE15 /* Recipe.swift */,
+				82D8A44D1F1EFDCD0046FE15 /* AppDelegate.swift */,
 			);
 			path = CookingApp;
 			sourceTree = "<group>";
@@ -515,6 +515,7 @@
 				82D8A4741F1EFDCD0046FE15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82D8A4751F1EFDCD0046FE15 /* Build configuration list for PBXNativeTarget "CookingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +524,7 @@
 				82D8A4771F1EFDCD0046FE15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82D8A4781F1EFDCD0046FE15 /* Build configuration list for PBXNativeTarget "CookingAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +533,7 @@
 				82D8A47A1F1EFDCD0046FE15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
