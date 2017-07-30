@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8225C1A31F2304A2009FD33B /* RecipeFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8225C1A21F2304A2009FD33B /* RecipeFinder.swift */; };
+		8225C1A61F2305DC009FD33B /* RecipeDictioinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8225C1A51F2305DC009FD33B /* RecipeDictioinary.swift */; };
 		82D8A44E1F1EFDCD0046FE15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8A44D1F1EFDCD0046FE15 /* AppDelegate.swift */; };
 		82D8A4501F1EFDCD0046FE15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D8A44F1F1EFDCD0046FE15 /* ViewController.swift */; };
 		82D8A4531F1EFDCD0046FE15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D8A4511F1EFDCD0046FE15 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8225C1A21F2304A2009FD33B /* RecipeFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeFinder.swift; sourceTree = "<group>"; };
+		8225C1A51F2305DC009FD33B /* RecipeDictioinary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDictioinary.swift; sourceTree = "<group>"; };
 		82D8A44A1F1EFDCD0046FE15 /* CookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D8A44D1F1EFDCD0046FE15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D8A44F1F1EFDCD0046FE15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				82D8A4561F1EFDCD0046FE15 /* LaunchScreen.storyboard */,
 				82D8A4591F1EFDCD0046FE15 /* Info.plist */,
 				82D8A44D1F1EFDCD0046FE15 /* AppDelegate.swift */,
+				8225C1A21F2304A2009FD33B /* RecipeFinder.swift */,
+				8225C1A51F2305DC009FD33B /* RecipeDictioinary.swift */,
 			);
 			path = CookingApp;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 			files = (
 				82D8A4501F1EFDCD0046FE15 /* ViewController.swift in Sources */,
 				82D8A44E1F1EFDCD0046FE15 /* AppDelegate.swift in Sources */,
+				8225C1A31F2304A2009FD33B /* RecipeFinder.swift in Sources */,
 				82D8A47C1F1EFE220046FE15 /* Ingredient.swift in Sources */,
 				82D8A47F1F1F03660046FE15 /* Recipe.swift in Sources */,
+				8225C1A61F2305DC009FD33B /* RecipeDictioinary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

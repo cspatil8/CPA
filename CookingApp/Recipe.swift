@@ -16,6 +16,7 @@ enum LevelOfDifficulty {
 
 class Recipe {
     
+    let title: String
     var ingredients = [Ingredient]()
     var cookTime: String
     var cuisine: String?
@@ -24,7 +25,8 @@ class Recipe {
     let level: LevelOfDifficulty
 //    var recipeType: RecipeType
     
-    init(ingredientList: [Ingredient], cookTime: String, cuisine: String?, instructions: String, description: String?, level: LevelOfDifficulty) {
+    init(title: String, ingredientList: [Ingredient], cookTime: String, cuisine: String?, instructions: String, description: String?, level: LevelOfDifficulty) {
+        self.title = title
         self.ingredients = ingredientList
         self.cookTime = cookTime
         self.cuisine = cuisine
